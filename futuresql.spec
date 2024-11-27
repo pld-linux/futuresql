@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_with	qt5		# build qt5 version
+%bcond_without	qt5		# build qt5 version
 %bcond_without	qt6		# build qt6 version
 %bcond_with	tests		# build with tests
 #
@@ -12,7 +12,7 @@
 Summary:	A non-blocking database framework for Qt
 Name:		futuresql
 Version:	0.1.1
-Release:	2
+Release:	3
 License:	BSD 2/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/futuresql/%{name}-%{version}.tar.xz
